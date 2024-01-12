@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/filmromance"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:text="DEAR NATHAN"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Tells the story of Nathan and Salma who meet each other, their closeness begins to be tested when the presence of someone who returns to their lives." />
+
+    <Button
+        android:id="@+id/nathan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription"
+        android:text="Watch Trailer Now"
+        android:onClick="playnathanTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/romance6"/>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="200dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="DILAN 1990"/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="210dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="tells the story of the love story of two Bandung teenagers in the 90s. It started with a student named Dilan who fell in love with a transfer student from high school in Jakarta named Milea. Dilan has various ways to approach and steal Milea's attention. " />
+    <Button
+        android:id="@+id/dilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:onClick="playdilanTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/romance3"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="400dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="FOREVER MY GIRL"/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="410dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="This story is about the life of a country musician who tries to win back the girl he left on the wedding altar 8 years ago." />
+
+    <Button
+        android:id="@+id/mygirl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription3"
+        android:text="Watch Trailer Now"
+        android:onClick="playmygirlTrailer"/>
+</RelativeLayout>

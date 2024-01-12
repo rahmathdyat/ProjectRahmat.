@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="25dp"
+    tools:context="com.example.projectrahmat.ActionFragment">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="FAST X"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:text="Fast X - menceritakan perjalanan DOM dan keluarga nya dalam menjalani konflix"/>
+
+    <Button
+        android:id="@+id/fastx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Deskription"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:onClick="playFastxTrailer"
+        android:text="Watch Trailer Now" />
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/fastx" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:text="WIRO SABLENG"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="212dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:maxLines="5"
+        android:text="Tentang sebuah pemuda yang bertekad membalaskan dendam guru dan kematian orang tuanya"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/wirosableng" />
+
+    <Button
+        android:id="@+id/wirosableng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:onClick="playWirosablengTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/avanger"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:text="AVANGERS"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="403dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:maxLines="5"
+        android:text="Sebuah film superhero yang ingin menyelematkan dunia dari tangan kejahatan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/avanger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Deskription3"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:onClick="playAvangerTrailer"
+        android:text="Watch Trailer Now" />
+</RelativeLayout>
